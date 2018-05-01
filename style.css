@@ -1,0 +1,92 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+td {
+	width: 20px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blank {
+	background-color: black; 
+}
+
+.snake {
+	background-color: white;
+}
+
+.wall {
+	background-color: green;
+}
+
+.fruit {
+	background-color: red;
+}
+
+.scoreBoard {
+	font: normal 30px Monospace;
+	color: white;
+	text-align: center;
+}
+
+#message {
+	font: normal 20px Monospace;
+	color: white;
+	text-align: center;
+}
+
+.title {
+	font: Monospace;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.variation-b .suit_and_tie {
+	color: white;
+	border: 2px solid white;
+	background-color: black;
+}
+button.suit_and_tie {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.suit_and_tie {
+	color: black;
+	font-size: 20px;
+	font-family: monospace;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 20px;
+	transition-duration: .2s;
+	-webkit-transition-duration: .2s;
+	-moz-transition-duration: .2s;
+	background-color: white;
+	padding: 4px 30px;
+	outline: 0;
+}
+
+.variation-b .suit_and_tie:hover {
+	color: black;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.variation-b {
+	display: flex;
+	justify-content: center;
+	margin-top: 6px;
+}
